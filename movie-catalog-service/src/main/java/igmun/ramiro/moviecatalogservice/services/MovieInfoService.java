@@ -5,10 +5,12 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import igmun.ramiro.moviecatalogservice.models.Movie;
 import igmun.ramiro.moviecatalogservice.models.Rating;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@RefreshScope
 public class MovieInfoService {
 
     @Value("${movie-info-service}")
