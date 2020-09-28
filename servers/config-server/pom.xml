@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>igmun.ramiro</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>config-server</name>
     <description>Configuration Server for microservices sample project</description>
